@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cartStyle.css">
+</head>
+
+<body>
+    <header>
+        <a href="homePage.html">
+            <img src="Картинки/LOGOGO.png" alt="">
+        </a>
+
+        <ul class="headerNav">
+            <li class="headerListItem caps"><a href="catalog.html">Каталог</a></li>
+            <li class="headerListItem caps"><a href="reviews.html">Отзывы</a></li>
+            <li class="headerListItem caps headerCart">
+                <svg class="cart" viewBox="0 0 64 64" width="48" height="48">
+
+                    <style>
+                        .cart path,
+                        .cart circle {
+                            stroke: FFAFAF;
+                            transition: stroke 0.2s ease;
+                        }
+
+                        .cart:hover path,
+                        .cart:hover circle {
+                            stroke: #FFAFAF;
+                            cursor: pointer;
+                        }
+                    </style>
+
+                    <path class="headerCart" d="M10 14 H18 L22 40 H48 C50 40 52 38 52 36 L56 20 H22" fill="none"
+                        stroke="#FFAFAF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+                    <circle class="headerCart" cx="26" cy="48" r="3" fill="none" stroke="#FFAFAF" stroke-width="3" />
+                    <circle class="headerCart" cx="44" cy="48" r="3" fill="none" stroke="#FFAFAF" stroke-width="3" />
+                </svg>
+            </li>
+        </ul>
+    </header>
+
+    <div class="cart-content">
+        <div class="cart-content__top">
+            <h1 class="cart-content__title">ВАША КОРЗИНА</h1>
+            <a href="#" class="cart-content__clear">Очистить корзину?</a>
+        </div>
+
+        <div class="cart-content__empty">
+            <div class="cart-content__text">
+                <p>В вашей корзине пока-что пусто.</p>
+                <p>Хотите сюда что-нибудь добавить?</p>
+            </div>
+
+            <a href="catalog.html"><button class="cart-content__add" type="button">+</button></a>
+        </div>
+
+        <div class="cart-content__bottom">
+            <a href="#" class="cart-content__pay">Оплатить заказ</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <span class="footer-brand">ProSmola</span>
+                <span class="footer-phone">+7 (304) 784-23-24</span>
+            </div>
+            <div class="footer-center">
+                <a href="#" class="footer-link">Лицензия</a>
+                <a href="#" class="footer-link">Пользовательское соглашение</a>
+                <a href="#" class="footer-link">Партнерам</a>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="footer-link icon"><img src="Картинки/Vector.svg" alt=""></a>
+                <a href="#" class="footer-link icon"><img src="Картинки/Vector (1).svg" alt=""></a>
+                <a href="#" class="footer-link icon"><img src="Картинки/Vector (2).svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

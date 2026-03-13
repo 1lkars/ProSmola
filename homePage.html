@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/homePageStyle.css">
+</head>
+
+<body>
+    <header>
+        <img src="Картинки/LOGOGO.png" alt="">
+
+        <ul class="headerNav">
+            <li class="headerListItem caps"><a href="catalog.html">Каталог</a></li>
+            <li class="headerListItem caps reviewsLinker"><a href="reviews.html">Отзывы</a></li>
+            <li class="headerListItem caps headerCart">
+                <a href="cart.html">
+                    <svg class="cart" viewBox="0 0 64 64" width="48" height="48">
+
+                        <style>
+                            .cart path,
+                            .cart circle {
+                                stroke: white;
+                                transition: stroke 0.2s ease;
+                            }
+
+                            .cart:hover path,
+                            .cart:hover circle {
+                                stroke: #FFAFAF;
+                                cursor: pointer;
+                            }
+                        </style>
+
+                        <path class="headerCart" d="M10 14 H18 L22 40 H48 C50 40 52 38 52 36 L56 20 H22" fill="none"
+                            stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+                        <circle class="headerCart" cx="26" cy="48" r="3" fill="none" stroke="white" stroke-width="3" />
+                        <circle class="headerCart" cx="44" cy="48" r="3" fill="none" stroke="white" stroke-width="3" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="hero">
+        <img src="Картинки/HeroImg.png" alt="" class="hero_Img">
+
+        <div class="hero_Content">
+            <h2 class="hero_Content__Title">Изделия из эпоксидной смолы от <b class="highlight">Logogo</b></h2>
+            <p class="hero_Content__Text">Мы создаём изделия из эпоксидной смолы, где безупречная прозрачность и игра
+                цвета сочетаются с ювелирной обработкой. Каждая наша работа — это эксклюзивный арт-объект, который
+                остаётся доступным по цене.</p>
+            <button class="hero_Content__Btn btn caps">Смотреть продукцию</button>
+        </div>
+    </div>
+
+
+    <div class="ad">
+        <div class="ad_Content_Holder">
+            <div class="ad_Content">
+                <h2 class="ad_Content__Title">Бесплатный мастер-класс по эпоксидной смоле!</h2>
+                <p class="ad_Content__Text">Приходите на пробный мастер-класс и создайте свой первый арт-объект с нуля
+                    под руководством нашего мастера. Познакомьтесь с материалами, основами техники и убедитесь, что это
+                    захватывающе и доступно. Успейте записаться на удобную дату!</p>
+                <button class="ad_Content__Btn btn caps">Записаться</button>
+            </div>
+
+            <img src="Картинки/AdImg.png" alt="" class="ad_Img">
+        </div>
+    </div>
+
+
+    <div class="products">
+        <h2 class="products_Title caps">Наша продукция</h2>
+
+        <div class="products_Cards">
+            <div class="products_Card Card1">
+                <img src="Картинки/Product1.jpg" alt="" class="Img">
+                <h2 class="products_Card__Title caps">Название</h2>
+                <p class="products_Card__Price caps">Цена</p>
+                <button class="products_Card__Btn btn caps">В корзину</button>
+            </div>
+
+            <div class="products_Card Card2">
+                <img src="Картинки/Product2.jpg" alt="" class="Img">
+                <h2 class="products_Card__Title caps">Название</h2>
+                <p class="products_Card__Price caps">Цена</p>
+                <button class="products_Card__Btn btn caps">В корзину</button>
+            </div>
+
+            <div class="products_Card Card3">
+                <img src="Картинки/Product1.jpg" alt="" class="Img">
+                <h2 class="products_Card__Title caps">Название</h2>
+                <p class="products_Card__Price caps">Цена</p>
+                <button class="products_Card__Btn btn caps">В корзину</button>
+            </div>
+
+            <div class="products_Card Card4">
+                <img src="Картинки/Product2.jpg" alt="" class="Img">
+                <h2 class="products_Card__Title caps">Название</h2>
+                <p class="products_Card__Price caps">Цена</p>
+                <button class="products_Card__Btn btn caps">В корзину</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="about">
+        <h1 class="about__title">О НАС</h1>
+
+        <p class="about__text">
+            <span class="about__accent">Наша компания</span> — это лаборатория, ателье и художественная мастерская в
+            одном лице.
+            Мы не просто заливаем смолу в формы; мы экспериментируем с пигментами, фактурами и светом,
+            чтобы создавать по-настоящему редкие произведения.
+        </p>
+
+        <p class="about__text">
+            Мы доводим до совершенства каждый этап:
+        </p>
+
+        <ul class="about__list">
+            <li><span class="about__accent">Чистота:</span> Безупречная прозрачность без пузырьков.</li>
+            <li><span class="about__accent">Дизайн:</span> Эксклюзивные работы, которых больше ни у кого не будет.</li>
+            <li><span class="about__accent">Доступность:</span> Мы находим баланс между высочайшим качеством и
+                демократичными ценами.</li>
+        </ul>
+
+        <p class="about__text">
+            <span class="about__accent">Наша цель</span> — открыть вам дверь в мир современного искусства,
+            где вы становитесь не просто зрителем, а обладателем уникальной вещи,
+            созданной с помощью инновационных материалов.
+        </p>
+    </section>
+
+    <section class="reviews">
+        <div class="reviews__head">
+            <h1 class="reviews__title">ОТЗЫВЫ</h1>
+            <div class="reviews__subtitle">Что о нас говорят наши клиенты?</div>
+        </div>
+
+        <div class="reviews__grid">
+            <article class="review-card">
+                <div class="review-card__top">
+                    <div class="review-card__person">
+                        <div class="review-card__avatar"></div>
+                        <div class="review-card__meta">
+                            <div class="review-card__name">Маргарита</div>
+                            <div class="review-card__date">14 марта 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-card__stars">★★★★★</div>
+                </div>
+
+                <div class="review-card__text">
+                    Я шла на занятие с мыслью «справлюсь ли?», а ушла с парой шикарных мраморных серёжек! Мастер всё так
+                    понятно объяснила про смешивание смолы. Ни одного пузырька! Теперь хочу заливать целые панно. Это
+                    затягивает!
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-card__top">
+                    <div class="review-card__person">
+                        <div class="review-card__avatar"></div>
+                        <div class="review-card__meta">
+                            <div class="review-card__name">Алексей</div>
+                            <div class="review-card__date">3 мая 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-card__stars">★★★★★</div>
+                </div>
+
+                <div class="review-card__text">
+                    Это не просто украшение, это маленький арт-объект! Переливается на солнце, как океан. Сидит на
+                    пальце идеально, никакого дискомфорта. Смотрела много колец из смолы, но тут действительно ювелирная
+                    работа.
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-card__top">
+                    <div class="review-card__person">
+                        <div class="review-card__avatar"></div>
+                        <div class="review-card__meta">
+                            <div class="review-card__name">Михаил</div>
+                            <div class="review-card__date">18 июня 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-card__stars">★★★★★</div>
+                </div>
+
+                <div class="review-card__text">
+                    Мне понравилось! Я давно видела такие вещи в интернете и наконец попробовала сама. Получился милый
+                    кубик-подвеска. Минус звезда только потому, что ждать полного застывания пришлось пару дней, но мне
+                    заранее сказали, так что это не сюрприз) Иду на следующий курс!
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-card__top">
+                    <div class="review-card__person">
+                        <div class="review-card__avatar"></div>
+                        <div class="review-card__meta">
+                            <div class="review-card__name">Маргарита</div>
+                            <div class="review-card__date">30 июня 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-card__stars">★★★★★</div>
+                </div>
+
+                <div class="review-card__text">
+                    Я шла на занятие с мыслью «справлюсь ли?», а ушла с парой шикарных мраморных серёжек! Мастер всё так
+                    понятно объяснила про смешивание смолы. Ни одного пузырька! Теперь хочу заливать целые панно. Это
+                    затягивает!
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-card__top">
+                    <div class="review-card__person">
+                        <div class="review-card__avatar"></div>
+                        <div class="review-card__meta">
+                            <div class="review-card__name">Алексей</div>
+                            <div class="review-card__date">25 июня 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-card__stars">★★★★★</div>
+                </div>
+
+                <div class="review-card__text">
+                    Это не просто украшение, это маленький арт-объект! Переливается на солнце, как океан. Сидит на
+                    пальце идеально, никакого дискомфорта. Смотрела много колец из смолы, но тут действительно ювелирная
+                    работа.
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-card__top">
+                    <div class="review-card__person">
+                        <div class="review-card__avatar"></div>
+                        <div class="review-card__meta">
+                            <div class="review-card__name">Михаил э Миша</div>
+                            <div class="review-card__date">30 ноября 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-card__stars review-card__stars--four">★★★☆☆</div>
+                </div>
+
+                <div class="review-card__text">
+                    Мне понравилось! Я давно видела такие вещи в интернете и наконец попробовала сама. Получился милый
+                    кубик-подвеска. Минус звезда только потому, что ждать полного застывания пришлось пару дней, но мне
+                    заранее сказали, так что это не сюрприз) Иду на следующий курс!
+                </div>
+            </article>
+        </div>
+
+        <div class="reviews__action">
+            <a href="#" class="reviews__button">НАПИСАТЬ ОТЗЫВ</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <span class="footer-brand">ProSmola</span>
+                <span class="footer-phone">+7 (304) 784-23-24</span>
+            </div>
+            <div class="footer-center">
+                <a href="#" class="footer-link">Лицензия</a>
+                <a href="#" class="footer-link">Пользовательское соглашение</a>
+                <a href="#" class="footer-link">Партнерам</a>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="footer-link icon svg"><img src="Картинки/Vector.svg" alt=""></a>
+                <a href="#" class="footer-link icon svg"><img src="Картинки/Vector (1).svg" alt=""></a>
+                <a href="#" class="footer-link icon svg"><img src="Картинки/Vector (2).svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
